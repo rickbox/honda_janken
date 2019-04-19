@@ -1,0 +1,14 @@
+
+<h2>試合数:<%= @honda_win + @honda_lose  %></h2>
+<h2>本田の勝利数:<%= @honda_win %></h2>
+<h2>本田の敗北数:<%= @honda_lose %></h2>
+<h2>本田の勝率:<%= @honda_win/(@honda_win + @honda_lose) * 100 %>%</h2>
+<%= image_tag('/honda.png') %>
+
+<br><br><br>
+
+試合結果のツイート
+<% @tweet.each do |tweet| %>
+  <p><%= tweet %></p>
+<% end %>
+

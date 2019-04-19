@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyString
+  time: MyString
+  winflag: 1
+  loseflag: 1
+
+two:
+  content: MyString
+  time: MyString
+  winflag: 1
+  loseflag: 1
